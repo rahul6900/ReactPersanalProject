@@ -5,7 +5,7 @@ export const product = [
       id: 1,
       name:"Chilly",
       price: 120,
-      image: "./ReactMaterialUiHydroProject/assts/image/chilly.webp",
+      image: "/assts/image/chilly.webp",
       qty: 250,
       title:"This impressive paella is a perfect party dish and a fun meal to cook together with your guests.",
        
