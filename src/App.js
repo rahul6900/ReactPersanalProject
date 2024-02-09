@@ -2,7 +2,7 @@
 
 
 import React from 'react';
-import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
+import {  HashRouter ,Route,Routes} from 'react-router-dom'
 import Home from './Component/Home';
 import Login from './Component/Login';
 import Sinup from './Component/Sinup';
@@ -24,7 +24,7 @@ function App() {
 
 <Cardcontext >
 
-        <Router>
+        <HashRouter>
 <Routes>
 
 <Route exact path='/' element={<Home/>}>
@@ -61,7 +61,7 @@ function App() {
 </Routes>
 
 
-        </Router>
+        </HashRouter>
         </Cardcontext>
  </>
   );
