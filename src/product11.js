@@ -1,11 +1,15 @@
 
+import chilly from "../src/image/chilly.webp"
+import Tamato from "../src/image/tamato.webp"
+import watermallen from "../src/image/watermallen.webp"
+
 
 export const product = [
     {
       id: 1,
       name:"Chilly",
       price: 120,
-      image: "/assts/image/chilly.webp",
+      image: chilly,
       qty: 250,
       title:"This impressive paella is a perfect party dish and a fun meal to cook together with your guests.",
        
@@ -14,7 +18,7 @@ export const product = [
       id: 2,
       name: "Tamato",
       price: 140,
-      image: "./ReactMaterialUiHydroProject/assts/image/tamato.webp",
+      image: Tamato,
       qty: 500,
 
       title:"This impressive paella is a perfect party dish and a fun meal to cook together with your guests."
@@ -25,7 +29,7 @@ export const product = [
       id: 3,
       name: "watermallen",
       price: 150,
-      image: "./ReactMaterialUiHydroProject/assts/image/watermallen.webp",
+      image: watermallen,
       qty: 2,
 
       title:"This impressive paella is a perfect party dish and a fun meal to cook together with your guests."
@@ -34,7 +38,7 @@ export const product = [
       id: 4,
       name: "Chilly",
       price: 100,
-      image: "./ReactMaterialUiHydroProject/assts/image/chilly.webp",
+      image: chilly,
       qty: 1,
 
       title:"This impressive paella is a perfect party dish and a fun meal to cook together with your guests."
@@ -44,7 +48,7 @@ export const product = [
       id: 5,
       name: "Tamato",
       price: 200,
-      image: "./ReactMaterialUiHydroProject/assts/image/tamato.webp",
+      image: Tamato,
       qty: 4,
       title:"This impressive paella is a perfect party dish and a fun meal to cook together with your guests."
 
@@ -53,7 +57,7 @@ export const product = [
         id: 6,
         name: "Watermallen",
         price: 200,
-        image: "./ReactMaterialUiHydroProject/assts/image/watermallen.webp",
+        image: watermallen,
         qty: 5,
 
         title:"This impressive paella is a perfect party dish and a fun meal to cook together with your guests."

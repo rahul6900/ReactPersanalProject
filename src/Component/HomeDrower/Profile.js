@@ -7,6 +7,8 @@ import { styled, useTheme } from '@mui/material/styles';
 import MuiAppBar from '@mui/material/AppBar';
 import { Box, TextField, Typography } from '@mui/material';
 import '../../css/argon-dashboard-react.css';
+import profilecover from '../../image/profilecover.jpg'
+import profilerahul from '../../image/rahul.jpg'
 
 
 
@@ -101,7 +103,7 @@ React.useEffect(()=>{
                       <img
                         alt="..."
                         className="rounded-circle"
-                        src="/assts/image/rahul.jpg"
+                        src={profilerahul}
                       />
                     </a>
                   </div>

@@ -7,6 +7,7 @@ import TextField from '@mui/material/TextField';
 import { useForm} from "react-hook-form"
 import { yupResolver } from "@hookform/resolvers/yup"
 import { useNavigate } from 'react-router-dom';
+import login from "../image/loginbg.svg"
 
 
 import validationSchemaLogin from './Loginvalidation';
@@ -150,7 +151,7 @@ helperText={errors?.password?.message}
 
 <Grid item xs={7} sx={{background:"#1e293b"}}>
 <Box sx={{marginTop:"8%"}}>
-<img src="/assts/image/loginbg.svg" style={{marginLeft:"5%",width:"90%"}} className='img-fluid' alt="Signup-image" />
+<img src={login} style={{marginLeft:"5%",width:"90%"}} className='img-fluid' alt="Signup-image" />
 
 </Box>
 
