@@ -21,3 +21,14 @@ html {
     font-family: 'Inter var', Roboto, Helvetica Neue, Arial, sans-serif;
     
 }
+
+@media screen and (max-width: 1300px) {
+        .product {
+   margin-left: 10% !important;
+    }
+  }
+  @media screen and (max-width: 912px) {
+    .product {
+margin-left: 0% !important;
+}
+}

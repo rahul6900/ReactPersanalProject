@@ -19,6 +19,7 @@ import { Button, Container, Grid } from '@mui/material';
 import {product} from "../../product11";
 // import { CarddataContext } from '../ContextProvider/Cardcontext';
 import { useCardcontext } from '../ContextProvider/Cardcontext';
+import '../../style/Home.css';
 
 // // ----------------------------------------------------------------------
 
@@ -74,7 +75,7 @@ let {addtocard}=useCardcontext();
       <Main sx={{marginTop:"5%" }}>
       <Grid container  >
       {product.map(data=>(
-<Grid item xs={4} sx={{marginBottom:"3%"}}>
+<Grid item  lg={4}   sx={{marginBottom:"3%"}} className='product'>
 
 
   <Card sx={{ maxWidth: 345 }}>
@@ -92,7 +93,7 @@ let {addtocard}=useCardcontext();
     <Typography variant='h6' sx={{display:"inline"}}>
       {data.name}
     </Typography>
-    <Typography variant='h6' sx={{display:"inline",float:"right",color:"#616161"}}>
+    <Typography variant='h6'  sx={{display:"inline",float:"right",color:"#616161"}}>
       {data.price}
     </Typography>
       <Typography variant="body2"  sx={{width:"90%"}}color="text.secondary">

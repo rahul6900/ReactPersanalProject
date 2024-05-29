@@ -70,14 +70,14 @@ function Carditem({id,name,price,image,qty}) {
   
   return (
  <>
- <Grid item xs={10}>
+ <Grid item lg={10} md={10}>
 
 
 <Card sx={{ display: 'flex',marginTop:"2%",marginLeft:"15%",marginBottom:"2%"}}>
 
 <Grid container>
 
-<Grid item xs={3} sx={{display:'flex',justifyContent:"center",alignItems:"center"}}>
+<Grid item lg={3} md={3} sx={{display:'flex',justifyContent:"center",alignItems:"center"}}>
 
 <Box sx={{ display: 'flex',flexDirection: 'column' }}>
 <CardContent sx={{ flex: '1 0 auto' }}>
@@ -93,7 +93,7 @@ function Carditem({id,name,price,image,qty}) {
 </Box>
 </Grid>
 
-<Grid item xs={3}  sx={{display:'flex',justifyContent:"center",alignItems:"center"}}>
+<Grid item lg={3} md={3}  sx={{display:'flex',justifyContent:"center",alignItems:"center"}}>
 {/* <Typography variant='h6'> Quantity</Typography> */}
 <TextField
 name='qty'
@@ -115,7 +115,7 @@ name='qty'
         {/* <input type='text' name='qty'  value={qty}/> */}
 </Grid>
 
-<Grid item xs={2}  sx={{display:'flex',justifyContent:"center",alignItems:"center"}}>
+<Grid item lg={2} md={2} sx={{display:'flex',justifyContent:"center",alignItems:"center"}}>
 {
   (() => {
     
