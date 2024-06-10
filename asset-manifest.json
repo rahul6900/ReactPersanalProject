@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ReactPersanalProject/static/css/main.c1b13dd9.css",
+    "main.js": "/ReactPersanalProject/static/js/main.f53c9bf8.js",
+    "static/js/787.d4aba7ab.chunk.js": "/ReactPersanalProject/static/js/787.d4aba7ab.chunk.js",
+    "static/media/profilecover.jpg": "/ReactPersanalProject/static/media/profilecover.978992455652990b161d.jpg",
+    "static/media/tamato.webp": "/ReactPersanalProject/static/media/tamato.69f60ca2a0097d701a1c.webp",
+    "static/media/watermallen.webp": "/ReactPersanalProject/static/media/watermallen.20b6228b513ede172548.webp",
+    "static/media/loginbg.svg": "/ReactPersanalProject/static/media/loginbg.2a2521d478d5499db8d7810ec9e5a7b8.svg",
+    "static/media/rahul.jpg": "/ReactPersanalProject/static/media/rahul.8fb6a7aa2473e4db3c0f.jpg",
+    "static/media/chilly.webp": "/ReactPersanalProject/static/media/chilly.0f44b13168e7870a8d26.webp",
+    "index.html": "/ReactPersanalProject/index.html",
+    "main.c1b13dd9.css.map": "/ReactPersanalProject/static/css/main.c1b13dd9.css.map",
+    "main.f53c9bf8.js.map": "/ReactPersanalProject/static/js/main.f53c9bf8.js.map",
+    "787.d4aba7ab.chunk.js.map": "/ReactPersanalProject/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1b13dd9.css",
+    "static/js/main.f53c9bf8.js"
+  ]
+}
